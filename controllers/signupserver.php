@@ -98,7 +98,7 @@ if(empty($email)){
         
         $mailers -> isHTML(true);
         $mailers -> Subject = "Smart attendance Account credentials";
-        $mailers -> Body = "Dear $names this is to inform you That your account is created successfull <br> Bellow is your account credentials: Username: <br> $email <br>Password: $password1 <br> 
+        $mailers -> Body = "Dear $names this is to inform you That your account is created successfull <br> Bellow is your account credentials:<br> Username: <br> $email <br>Password: $password1 <br> 
         
         Thank you";
         $mailers -> send();
