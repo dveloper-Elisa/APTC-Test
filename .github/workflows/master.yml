@@ -17,4 +17,4 @@ jobs:
           server: aptctest
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server-dir: aptctest
+          server-dir: aptctest/
